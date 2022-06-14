@@ -1,0 +1,21 @@
+$bg-color1:rgb(188, 183, 214);
+$bg-color2:rgb(46, 54, 63);
+$bg-color3:rgb(198, 226, 43);
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $bg-color1;
+    font-family: arial;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "container container"
+    "footer footer";
+}
