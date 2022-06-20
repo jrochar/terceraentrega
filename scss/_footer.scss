@@ -1,13 +1,16 @@
 .footer{
     grid-area: footer;
-    background-color: $bg-color2;
-    /*padding: 5px;
-    width: 90%;
-    margin: 20px auto;*/   
+    background-color: $bg-color2;  
+    h5{
+        @extend .colorR
+    }
     .redes{
-    color: rgb(167, 42, 42);
+    color: red;
     text-decoration: none;
     list-style-type: none;
     font-family:cursive 
+    }
+    .ubicacion{
+        @extend .colorR
     }
 }
